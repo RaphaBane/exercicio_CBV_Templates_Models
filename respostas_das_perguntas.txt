@@ -1,0 +1,45 @@
+4️⃣ CBV vs FBV:
+
+a) Na sua visão, quais vantagens você percebe ao usar CBV no lugar de FBV?
+
+R: Em minha visão, as CBV possuem vantagens quando se fala de simplicidade e objetividade do código, por
+exemplo, se você quer criar um código que utilize post e está usando FBV, vai se ver necessário utilizar
+uma condição ou algo do gênero, já utilizando CBV, você pode criar outras funções dentro da classe e assim,
+deixar seu código muito mais simples e objetivo.
+
+x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x
+
+b) Quando você usaria uma CBV? Quando manteria uma FBV?
+
+R: Eu usaria CBV caso fosse fazer um projeto mais complexo, onde fosse necessário utilizar vários métodos
+HTTP de uma vez, enquanto o FBV eu utilizaria para views mais simples e objetivas.
+
+x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x
+
+5️⃣ Templates:
+
+a) Por que é importante separar a lógica de negócio (views) da camada de apresentação (templates)?
+
+R: Além de deixar o código mais fácil de entender, fica mais fácil de poder modificar tanto a view quanto
+o template sem necessariamente ter que mexer nos dois.
+
+x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x
+
+b) Qual o impacto disso na manutenção e evolução de uma aplicação?
+
+R: As alterações no HTML não vão afetar o código em Python, além de ser mais fácil a compreensão por
+parte dos programadores, deixando a manutenção e evolução do código mais eficiente
+
+x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x ---- x
+
+6️⃣ Models e qualidade de software:
+
+a) Por que um design de dados bem pensado (Models bem modelados) é fundamental para a qualidade de uma aplicação?
+
+R: Para evitar possíveis erros na aplicação de um código, facilitar o entendimento e a manutenção, além de
+permitir que código possa continuar evoluindo sem quebrar o que já tem.
+
+b) Quais riscos você vê em um projeto onde os Models não são bem estruturados?
+
+R: Dados que não condizem com o que proposto ou corrompidos, baixo desempenho, deixa o código mais
+complexo, dificuldade para aplicar o código etc.
